@@ -1,13 +1,21 @@
-import './App.css'
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
 
-function App() {
+export default function App() {
   return (
     <>
-      <p className="text-red-900">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar/>
+      <Hero/>
+      <Skills/>
+      <Portfolio/>
+      <Experience/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
-
-export default App
