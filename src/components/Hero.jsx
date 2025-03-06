@@ -8,13 +8,19 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import {
+  DiAngularSimple,
   DiCss3,
+  DiDotnet,
   DiHtml5,
   DiJavascript1,
-  DiNodejsSmall,
   DiReact,
 } from "react-icons/di";
 import { motion } from "framer-motion";
+import { PiFileCSharp } from "react-icons/pi";
+import { TbBrandCSharp } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
 
 const Hero = () => {
   return (
@@ -123,11 +129,18 @@ const Hero = () => {
         className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
-        <DiHtml5 className="text-orange-600 mx-2" />
-        <DiCss3 className="text-blue-600 mx-2" />
-        <DiJavascript1 className="text-yellow-500 mx-2" />
-        <DiReact className="text-blue-500 mx-2" />
-        <DiNodejsSmall className="text-green-500 mx-2" />
+        <TbBrandCSharp className="text-purple-700" /> {/* Improved contrast */}
+        <DiDotnet className="text-blue-600 mx-2" />{" "}
+        {/* Darker blue for visibility */}
+        <DiReact className="text-cyan-400 mx-2" />{" "}
+        {/* More vibrant React color */}
+        <DiAngularSimple className="text-red-600 mx-2" /> {/* Darker red */}
+        <RiTailwindCssFill className="text-sky-500 mx-2" />{" "}
+        {/* Tailwind color */}
+        <FaBootstrap className="text-indigo-500 mx-2" />{" "}
+        {/* More standard Bootstrap color */}
+        <VscAzure className="text-blue-500 mx-2" />{" "}
+        {/* Consistent with Azure branding */}
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">
