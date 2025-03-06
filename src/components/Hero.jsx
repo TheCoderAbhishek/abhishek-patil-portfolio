@@ -7,16 +7,8 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import {
-  DiAngularSimple,
-  DiCss3,
-  DiDotnet,
-  DiHtml5,
-  DiJavascript1,
-  DiReact,
-} from "react-icons/di";
+import { DiAngularSimple, DiDotnet, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
-import { PiFileCSharp } from "react-icons/pi";
 import { TbBrandCSharp } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
