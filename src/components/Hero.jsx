@@ -13,6 +13,7 @@ import { TbBrandCSharp } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
+import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -78,26 +79,36 @@ const Hero = () => {
               Download CV
             </motion.button>
 
-            <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
+            <div className="flex gap-6 flex-row text-3xl md:text-5xl z-20">
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://www.github.com/TheCoderAbhishek/"
               >
-                <AiOutlineGithub />
+                <AiOutlineGithub className="text-gray-300" />
               </motion.a>
 
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://www.linkedin.com/in/yuvraj96k/"
+                className="text-white hover:text-gray-300"
               >
-                <AiOutlineLinkedin />
+                <AiOutlineLinkedin className="text-blue-600" />
               </motion.a>
 
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://www.instagram.com/yuvraj96k/"
+                className="text-white hover:text-gray-300"
               >
-                <AiOutlineInstagram />
+                <AiOutlineInstagram className="text-pink-500" />
+              </motion.a>
+
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="https://leetcode.com/u/InnovationWithAbhi/"
+                className="text-white hover:text-gray-300"
+              >
+                <SiLeetcode className="text-orange-500" />
               </motion.a>
             </div>
           </motion.div>
@@ -121,18 +132,13 @@ const Hero = () => {
         className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
-        <TbBrandCSharp className="text-purple-700" /> {/* Improved contrast */}
-        <DiDotnet className="text-blue-600 mx-2" />{" "}
-        {/* Darker blue for visibility */}
-        <DiReact className="text-cyan-400 mx-2" />{" "}
-        {/* More vibrant React color */}
-        <DiAngularSimple className="text-red-600 mx-2" /> {/* Darker red */}
-        <RiTailwindCssFill className="text-sky-500 mx-2" />{" "}
-        {/* Tailwind color */}
-        <FaBootstrap className="text-indigo-500 mx-2" />{" "}
-        {/* More standard Bootstrap color */}
-        <VscAzure className="text-blue-500 mx-2" />{" "}
-        {/* Consistent with Azure branding */}
+        <TbBrandCSharp className="text-purple-700 mx-2" />
+        <DiDotnet className="text-blue-700 mx-2" />
+        <DiReact className="text-cyan-400 mx-2" />
+        <DiAngularSimple className="text-red-600 mx-2" />
+        <RiTailwindCssFill className="text-sky-500 mx-2" />
+        <FaBootstrap className="text-indigo-500 mx-2" />
+        <VscAzure className="text-blue-500 mx-2" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">
