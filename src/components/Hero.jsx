@@ -129,7 +129,7 @@ const Hero = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 2 }}
-        className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+        className="flex flex-row text-5xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
         <TbBrandCSharp className="text-purple-700 mx-2" />
@@ -137,8 +137,8 @@ const Hero = () => {
         <DiReact className="text-cyan-400 mx-2" />
         <DiAngularSimple className="text-red-600 mx-2" />
         <RiTailwindCssFill className="text-sky-500 mx-2" />
-        <FaBootstrap className="text-indigo-500 mx-2" />
-        <VscAzure className="text-blue-500 mx-2" />
+        <FaBootstrap className="text-indigo-500 mx-2 text-4xl" />
+        <VscAzure className="text-blue-500 mx-2 text-4xl" />
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">
