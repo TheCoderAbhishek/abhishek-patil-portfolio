@@ -7,13 +7,13 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import { DiAngularSimple, DiDotnet, DiReact } from "react-icons/di";
+import { DiAngularSimple, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
 import { TbBrandCSharp } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
-import { SiLeetcode } from "react-icons/si";
+import { SiDotnet, SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -133,7 +133,7 @@ const Hero = () => {
       >
         <p className="text-gray-200 mr-6">My Tech Stack</p>
         <TbBrandCSharp className="text-purple-700 mx-2" />
-        <DiDotnet className="text-blue-700 mx-2" />
+        <SiDotnet className="text-blue-700 mx-2" />
         <DiReact className="text-cyan-400 mx-2" />
         <DiAngularSimple className="text-red-600 mx-2" />
         <RiTailwindCssFill className="text-sky-500 mx-2" />
