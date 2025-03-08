@@ -39,7 +39,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div id="experience" className="p-8 max-w-4xl mx-auto">
       <h1 className="text-4xl text-gray-200 font-bold text-center mb-12">
         Experience
       </h1>
