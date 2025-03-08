@@ -9,13 +9,13 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Skills/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </>
-  )
+  );
 }
