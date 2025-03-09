@@ -37,6 +37,11 @@ const experiences = [
   },
 ];
 
+const cardVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
 const Experience = () => {
   return (
     <div id="experience" className="p-8 max-w-4xl mx-auto">
@@ -51,15 +56,24 @@ const Experience = () => {
         {experiences.map((experience, index) => (
           <Reveal key={index}>
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="border border-purple-600 p-6 rounded-xl shadow-lg bg-gray-900/80 backdrop-blur-md flex flex-col items-center text-center"
+              variants={cardVariants}
+              initial="hidden"
+              animate="visible"
+              whileHover={{
+                scale: 1.05, // Smooth zoom-in effect
+                boxShadow: "0px 10px 30px rgba(150, 0, 255, 0.5)", // Glow effect
+                borderColor: "rgba(192, 64, 255, 1)", // More visible border
+              }}
+              transition={{ type: "spring", stiffness: 120, damping: 10 }}
+              className="border-2 border-purple-500 p-6 rounded-xl shadow-lg bg-gray-900/80 backdrop-blur-md flex flex-col items-center text-center transition-all duration-300"
             >
-              <img
+              <motion.img
                 src={experience.logo}
                 alt={`${experience.company} logo`}
                 className="w-16 h-16 object-contain rounded-md mb-4"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
               />
               <h2 className="text-gray-100 text-xl font-semibold">
                 {experience.company}
