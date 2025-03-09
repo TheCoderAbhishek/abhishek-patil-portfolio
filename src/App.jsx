@@ -13,7 +13,7 @@ export default function App() {
       <Hero />
       <Skills />
       <Experience />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact />
       <Footer />
     </>
