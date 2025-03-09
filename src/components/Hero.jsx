@@ -47,7 +47,7 @@ const Hero = () => {
             className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
           >
             HEY, I AM <br />
-            <span className="text-purple-500">ABHISHEK PATIL</span>
+            <span className="text-purple-500">ABHISHEK H PATIL</span>
           </motion.p>
 
           <motion.p
