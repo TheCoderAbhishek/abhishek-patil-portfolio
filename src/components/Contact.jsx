@@ -67,6 +67,7 @@ const Contact = () => {
               id="name"
               placeholder="Your Name ..."
               name="name"
+              autoComplete="name"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
             <input
@@ -74,14 +75,16 @@ const Contact = () => {
               id="email"
               placeholder="Your Email ..."
               name="email"
+              autoComplete="email"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
             <textarea
-              name="textarea"
+              name="message"
               id="textarea"
               cols="30"
               rows="4"
               placeholder="Your Message ..."
+              autoComplete="off"
               className="mb-2 w-full rounded-md border border-purple-600 py-2 pl-2 pr-4"
             />
             <button
