@@ -14,18 +14,33 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                I am a passionate{" "}
+                <span className="text-primary-color">Software Developer</span>{" "}
+                with over <span className="text-primary-color">3 years</span> of
+                experience in building high-performance web applications. My
+                expertise lies in{" "}
+                <span className="text-primary-color">
+                  C#, .NET Core, ASP.NET Web API, React, and Angular
+                </span>
+                , alongside modern UI frameworks like{" "}
+                <span className="text-primary-color">
+                  Tailwind CSS and Bootstrap
+                </span>
+                . I also have strong experience working with databases such as{" "}
+                <span className="text-primary-color">
+                  MySQL, PostgreSQL, and MSSQL Server
+                </span>
+                , and cloud platforms including{" "}
+                <span className="text-primary-color">Azure, AWS, and GCP</span>.
+                I thrive on solving complex problems and crafting scalable
+                solutions that deliver impact.
               </p>
             </div>
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  11
-                  <span>+</span>
+                  11<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>Projects</span>
@@ -43,8 +58,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  10
-                  <span>+</span>
+                  10<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>happy clients</span>
@@ -56,11 +70,11 @@ const Contact = () => {
           <form
             action="https://getform.io/f/bjjmrnpb"
             method="POST"
-            className=" max-w-6xl p-5 md:p-12"
+            className="max-w-6xl p-5 md:p-12"
             id="form"
           >
             <p className="text-gray-100 font-bold text-xl mb-2">
-              Let´s connect!
+              Let’s connect!
             </p>
             <input
               type="text"
