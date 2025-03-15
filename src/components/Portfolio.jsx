@@ -1,9 +1,7 @@
 import React from "react";
-import project1 from "../assets/cardio.jfif";
-import project2 from "../assets/project2.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
+import project1 from "../assets/project1.jfif";
+import project2 from "../assets/project2.svg";
+import project4 from "../assets/project4.jfif";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -12,7 +10,7 @@ const projects = [
     img: project1,
     title: "Cardio Risk Prediction System",
     description:
-      "Cardio Risk Prediction System (CRPS) is a web-based Machine Learning Project with a user-friendly interface that is built with Django. It predicts whether the patient has heart disease or not using Machine Learning (ML) Algorithm Logistic Regression.",
+      "The Cardio Risk Prediction System (CRPS) is a user-friendly web application, developed with Django, that utilizes machine learning (Logistic Regression) to predict the likelihood of heart disease.",
     links: {
       site: "https://github.com/TheCoderAbhishek/Cardio-Risk-Prediction-System-Python",
       github:
@@ -21,39 +19,22 @@ const projects = [
   },
   {
     img: project2,
-    title: "Project #2",
-    description: "A fullstack application built with Node.js and MongoDB.",
+    title: "AridentRIS Brand",
+    description:
+      "Developed the official AridentRIS company website using Angular 18 and Tailwind CSS, creating a modern and responsive online presence.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://innovatewithabhi.github.io/AridentRIS/home",
+      github: "https://github.com/InnovateWithAbhi/AridentRIS",
     },
   },
   {
     img: project4,
-    title: "Project #3",
-    description: "An e-commerce platform with various features.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: project5,
-    title: "Project #4",
-    description: "A mobile-friendly application using React Native.",
-    links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: project6,
-    title: "Project #5",
+    title: "AridentRIS E-Commerce",
     description:
-      "A data visualization project using D3.js and other libraries.",
+      "A feature-rich e-commerce platform built with Angular, TypeScript, and Tailwind CSS, providing a seamless shopping experience.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://innovatewithabhi.github.io/AridentRIS-Ecommerce/",
+      github: "https://github.com/InnovateWithAbhi/AridentRIS-Ecommerce",
     },
   },
 ];
