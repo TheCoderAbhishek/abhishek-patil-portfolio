@@ -11,7 +11,8 @@ const projects = [
   {
     img: project1,
     title: "Cardio Risk Prediction System",
-    description: "UI for frontend development using React.",
+    description:
+      "Cardio Risk Prediction System (CRPS) is a web-based Machine Learning Project with a user-friendly interface that is built with Django. It predicts whether the patient has heart disease or not using Machine Learning (ML) Algorithm Logistic Regression.",
     links: {
       site: "https://github.com/TheCoderAbhishek/Cardio-Risk-Prediction-System-Python",
       github:
