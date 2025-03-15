@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from "../assets/project1.png";
+import project1 from "../assets/cardio.jfif";
 import project2 from "../assets/project2.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -10,11 +10,12 @@ import Reveal from "./Reveal";
 const projects = [
   {
     img: project1,
-    title: "Project #1",
+    title: "Cardio Risk Prediction System",
     description: "UI for frontend development using React.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://github.com/TheCoderAbhishek/Cardio-Risk-Prediction-System-Python",
+      github:
+        "https://github.com/TheCoderAbhishek/Cardio-Risk-Prediction-System-Python",
     },
   },
   {
